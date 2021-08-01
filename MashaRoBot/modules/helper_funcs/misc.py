@@ -66,10 +66,10 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
     modulo_page = page_n % max_num_pages
 
     # can only have a certain amount of buttons side by side
-    if len(pairs) > 7:
-        pairs = pairs[modulo_page * 10:10 * (modulo_page + 1)] + [
+    if len(pairs) > 6:
+        pairs = pairs[modulo_page * 6:6 * (modulo_page + 1)] + [
             (EqInlineKeyboardButton("☜", callback_data="{}_prev({})".format(prefix, modulo_page)),
-                EqInlineKeyboardButton("「 GO BACK 」", callback_data="masha_back"),
+             EqInlineKeyboardButton("༒𝐁𝐀𝐂𝐊༒", callback_data="masha_back"),
              EqInlineKeyboardButton("☞", callback_data="{}_next({})".format(prefix, modulo_page)))]
 
     else:
@@ -120,6 +120,7 @@ def sendMessage(text: str, bot: Bot, update: Update):
     return bot.send_message(update.message.chat_id,
                                     reply_to_message_id=update.message.message_id,
                                     text=text, parse_mode=ParseMode.HTML)
+
 
 def build_keyboard_parser(bot, chat_id, buttons):
     keyb = []
