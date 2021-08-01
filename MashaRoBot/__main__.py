@@ -74,54 +74,36 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello I'm 𝕷𝖔𝖛𝖊𝖑𝖞 𝕽𝖔𝖇𝖔𝖙 ,
-༒︎ I ᴀᴍ ᴍᴜʟᴛɪ ᴛᴀʟᴇɴᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴏsᴍ ғᴇᴀᴛᴜʀᴇs[.](https://telegra.ph/file/38f9badec49fd74a2ba93.jpg)
+Hᴇʟʟᴏ I'ᴍ Pᴀᴛʀɪᴄɪᴀ,
+I ᴀᴍ Mᴜʟᴛɪ Tᴀʟᴇɴᴛᴇᴅ Bᴏᴛ Wɪᴛʜ Osᴍ Fᴇᴀᴛᴜʀᴇs[❤️](https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg)
 
 ➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
 
-➪ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴍᴀsᴛᴇʀ](t.me/TUSHAR204) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴀɴᴅ [ᴀᴘᴘᴇᴀʟ](https://t.me/LOVELYAPPEAL) ʜᴇʀᴇ.
-
 ➪ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
-
-➪ Pᴏᴡᴇʀᴇᴅ ʙʏ [𝕷𝖔𝖇𝖊 𝕱𝖆𝖎𝖑𝖚𝖗𝖊](t.me/shayri_of_loves)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Aᴅᴅ ʟᴏᴠᴇʟʏ ᴛᴏ ɢʀᴏᴜᴘ ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
+            text="➕️ Aᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ ➕️", url="t.me/PATRICIA_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️Aʙᴏᴜᴛ", callback_data="masha_"),
-        InlineKeyboardButton(text="🆘Hᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ😈", callback_data="masha_"),
+        InlineKeyboardButton(text="Hᴇʟᴘ📚", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(
-            text="✨Lᴏᴠᴇʟʏ ʟᴏɢs✨", url="t.me/LOV3LYLOGS"),
-        InlineKeyboardButton(
-            text="👥Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/LOVELYAPPEAL"),
-    ],
-    [  
-        InlineKeyboardButton(text="😈Lᴏᴠᴇʟʏ ᴅᴇᴠs😈", url="https://t.me/LOVELYDEVS"
-    ),
-    ], 
-    [
-        InlineKeyboardButton(text="❤️Lᴏᴠᴇ sᴛᴀᴛᴜs❤️", url="https://t.me/shayri_of_loves"
-    ), 
-    ],
-    [   
-        InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔰", url="https://t.me/ABOUTVEDMAT"
-    ),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ⚠️", url="https://t.me/PATRICIA_SUPPORT"),
+        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs🗞️", url="https://t.me/PATRICIA_UPDATES"),
     ],
 ]
 
 
 
 HELP_STRINGS = """
-༆*LOVELY comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
+༆*PATRICIA comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF PATRICIA*꧂
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LOVELYAPPEAL* [.](https://telegra.ph/file/cbbf01ed6f013ce07d54f.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @PATRICIA_SUPPORT* [.](https://telegra.ph/file/53e6bdbc5fc1c1f1edfff.jpg)
 """
 
 
@@ -370,22 +352,22 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *LOVELY*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *PATRICIA*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/LOVELYAPPEAL).
-                 If you have any question about Lovely, let us know at @LOVELYAPPEAL.""",
+                 \n_I am licensed under the GNU General Public License v3.0_
+                 Here is the [UPDATE](https://t.me/patricia_updates).
+                 If you have any question about Patricia, let us know at @FRNDSXWORLD.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
+                    InlineKeyboardButton(text="Back", callback_data="help_back")
                  ]
                 ]
             ),
@@ -405,8 +387,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *lovely*
-                 \nHere is the [Source Code](https://t.me/LOVELYAPPEL) .""",
+            text=""" Hi..🤗 I'm *Patricia*
+                 \nHere is the [Source Code](https://t.me/PIROXPOWER) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
